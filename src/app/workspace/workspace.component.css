@@ -1,0 +1,94 @@
+.btn-group {
+    position: relative;
+    left: 300px;
+}
+
+.google-img {
+
+}
+
+.text-16 {
+    font-size: 16px;
+}
+
+.google-group {
+    text-align: center !important;
+}
+
+.text-13 {
+    font-size: 13px;
+    color: #9EA2A9;
+}
+
+.border-left-primary {
+    width: 250px;
+}
+
+.text-13-2 {
+    text-align: center;
+    font-size: 13px;
+}
+
+.text-11 {
+    font-size: 16px;
+    color: #9EA2A9;
+    position: relative;
+    top: 15px;
+    left: 30px;
+}
+
+.text-11-2 {
+    font-size: 16px;
+    color: #9EA2A9;
+    position: relative;
+    top: 68px;
+    left: 40px;
+}
+
+.fa-calendar {
+    position: relative;
+    top: 40px;
+}
+
+.icon-square {
+    position: relative;
+    top: 40px;
+    left: 45px;
+}
+
+.workspace {
+    font-size: 24px;
+    color: #0F123F;
+}
+
+.group-workspace {
+    position: relative;
+    left: 40px;
+}
+
+.group-btn {
+    position: relative;
+    left: 200px;
+    top: 10px;
+}
+
+.active {
+    background-color: #0F123F;
+}
+
+.outline {
+    outline-color: #0F123F !important;
+}
+
+.number {
+    text-align: left;
+}
+
+.group-btn-2 {
+    position: relative;
+    left: 850px;
+    top: 10px;
+}
+/* .btn-outline-primary {
+    background-color: #0F123F ;
+} */

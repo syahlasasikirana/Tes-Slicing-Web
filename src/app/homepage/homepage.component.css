@@ -1,0 +1,65 @@
+.body {
+    background: #E5E5E5;;
+}
+
+.dashboard-home {
+    padding: 10px;
+    font-size: 24px;
+    color: #0F123F;
+}
+
+.bg-card {
+    padding: 30px;
+    background: #E5E5E5;
+    overflow-x: hidden;
+}
+
+.fa-user-group,
+.icon-user,
+.fa-triangle-exclamation,
+.fa-circle-xmark,
+.fa-circle-check {
+    position: relative;
+    left: 110px;
+    top: -10px;
+}
+
+.user-text {
+    position: relative;
+    top: -10px;
+}
+
+/* .user-text-2 {
+    position: relative;
+    top: -5px;
+    font-weight: bold !important;
+    font-size: 20px;
+} */
+
+.progress {
+    position: relative;
+    top: 25px;
+    right: 50px;
+}
+
+.fa-chart-line {
+    position: relative;
+    top: -30px;
+    left: 110px;
+}
+
+.progress-text {
+    position: relative;
+    top: 35px;
+    right: 40px;
+}
+
+.bg-body {
+    background: #E5E5E5;;
+}
+
+.tes {
+    position: relative;
+    top: 20px;
+    right: 50px;
+}

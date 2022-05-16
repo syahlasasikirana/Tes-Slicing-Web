@@ -1,0 +1,58 @@
+<div class="container login__container my-5">
+  <div class="row login__row">
+      <div class="col-md-8 d-flex">
+          <!-- <img class="login__imagek align-self-center" src="https://www.freevector.com/uploads/vector/preview/28488/Businessman_Happy_Accepting_News.jpg"
+              width="100%" alt="" /> -->
+              <img [src]="login" alt="" class="google-img" width="100%">
+      </div>
+      <div class="col-md-4 d-flex">
+          <div class="align-self-center card login__card shadow-sm w-100">
+              <div class="card-body">
+                  <form action="" (ngSubmit)="onSubmit(signInForm)" #signInForm="ngForm">
+                    <div class="my-2">
+                        <h5 class="">
+                          Nice to see you again
+                        </h5>
+                    </div>
+                      <h6 class="text-muted">Pelase sign in with your email</h6><br>
+
+                      
+
+                      <div class="">
+                          <div class="form-group">
+                              <label>Login</label>
+                              <input type="email" name="email" class="form-control form-control-lg" placeholder="Email or phone number"/>
+                          </div><br>
+                          <div class="form-group">
+                              <label>Password</label>
+                              <input type="password" name="password" class="form-control form-control-lg" placeholder="Enter password"/>
+                              <i class="fa-solid fa-eye"></i>
+                          </div>
+                          <br>
+
+                          <div class="alert alert-danger" role="alert" *ngIf="isFormInvalid">
+                              Silahkan isi semua kolom
+                          </div>
+
+                          <div class="alert alert-danger" role="alert" *ngIf="isAuthenticated">
+                              Username atau password anda salah
+                          </div>
+
+                            <img [src]="remember" alt="" class="remember-img" width="100%">
+                            <i class="fa-solid fa-circle text-muted"></i>
+                            <p class="password">Forgot password?</p>
+                            <p class="remember-me">Remember me</p>
+
+
+                          <div class="form-group text-center">
+                              <button type="submit" class="btn btn-primary btn-lg btn-block my-3 btn-login">Login</button>
+                          </div>
+                      </div>
+                  </form>
+              </div>
+          </div>
+      </div>
+  </div>
+</div>
+
+<!-- <router-outlet></router-outlet> -->

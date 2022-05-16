@@ -1,0 +1,83 @@
+h1 {
+    color: palevioletred;
+}
+
+.bg-body {
+    overflow-x: hidden;
+}
+
+.button-das {
+    position: relative;
+    margin-left: 700px;
+}
+
+.button-search {
+    width: 200px;
+}
+
+.btn-search {
+    position: relative;
+    right: 60px;
+}
+
+.descending {
+    font-size: 15px;
+    position: relative;
+    right: 150px;
+    top: 9px;
+}
+
+.btn-create {
+    color: #0F123F;
+    position: relative;
+    right: 80px;
+}
+
+.account-active {
+    background-color: #0F123F;
+}
+
+.position-btn {
+    position: relative;
+    left: 150px;
+}
+
+.dashboard {
+    position: relative;
+    left: 45px;
+    background-color: #E5E5E5;
+}
+
+.table-light {
+    background-color: #C2C9D1;
+    ;
+}
+
+.fa-cicle-color {
+    color: #45D0AA !important;
+}
+
+.fa-color-2 {
+    color: #9996FF;
+}
+
+.btn-btn-color {
+    border-radius: 50px;
+    width: 70px;
+}
+
+.btn-btn-color-2 {
+    background-color: #13C57C;
+    border-radius: 50px;
+    width: 70px;
+}
+
+.page-1 {
+    position: relative;
+    left: 369px;
+}
+
+.page-2 {
+    position: relative;
+    left: 30px;
+}

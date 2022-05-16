@@ -1,0 +1,40 @@
+.fa-eye {
+    position: relative;
+    top: -35px;
+    left: 278px;
+}
+
+.remember-img {
+    width: 35px;
+    position: relative;
+    top: -40px;
+    left: 15px;
+}
+
+.fa-circle {
+    position: relative;
+    top: -38px;
+    right: 20px;
+}
+
+.password {
+    position: relative;
+    top: -60px;
+    left: 200px;
+    color: #007AFF;
+    font-size: 14px;
+}
+
+.remember-me {
+    font-size: 14px;
+    position: relative;
+    top: -98px;
+    left: 50px;
+}
+
+.btn-login {
+    position: relative;
+    top: -80px;
+    width: 300px;
+    background-color: #0F123F;
+}

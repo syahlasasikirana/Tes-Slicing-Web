@@ -1,0 +1,163 @@
+<!-- <p>homepage works!</p> -->
+<h3 class="dashboard-home">Dashboard</h3>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="bg-card">
+    <div class="row">
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-2 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="mb-1">
+                                <i class="fa-solid fa-user-group"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <p class="user-text">All Candidate</p>
+                            <h3 class="">120</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-2 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="col mr-2">
+                            <div class="mb-1">
+                                <i class="fa-solid fa-user icon-user"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <p class="user-text">New Candidate</p>
+                            <h3 class="">40</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+                <!-- Earnings (Monthly) Card Example -->
+                <div class="col-xl-2 col-md-6 mb-4">
+                    <div class="card border-left-primary shadow h-100 py-2">
+                        <div class="card-body">
+                            <div class="row no-gutters align-items-center">
+                                <div class="col mr-2">
+                                    <div class="mb-1">
+                                        <i class="fa-solid fa-chart-line"></i>
+                                    </div>
+                                </div>
+                                <div class="col-auto">
+                                    <p class="user-text tes">On Progress</p>
+                                    <h3 class="progress-text">25</h3>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-2 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="">
+                            <div class="">
+                                <i class="fa-solid fa-triangle-exclamation"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <p>Pending</p>
+                            <h3 class="">47</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-2 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="">
+                            <div class="">
+                                <i class="fa-solid fa-circle-xmark"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <p>Not Met</p>
+                            <h3 class="">15</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Earnings (Monthly) Card Example -->
+        <div class="col-xl-2 col-md-6 mb-4">
+            <div class="card border-left-primary shadow h-100 py-2">
+                <div class="card-body">
+                    <div class="row no-gutters align-items-center">
+                        <div class="">
+                            <div class="">
+                                <i class="fa-solid fa-circle-check"></i>
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <p>Complated</p>
+                            <h3 class="">92</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <canvas id="myChart" width="400" height="400"></canvas> -->
+
+    <div style="width: 40%;">
+        <canvas
+        baseChart
+        [type] = "'line'"
+        [legend]="true"
+        [datasets]="chartData"
+        [labels]="chartLabels"
+        [options]="chartOptions"
+        (chartHover)="onChartHover"
+        (chartClick)="onChartClick"
+        >
+        </canvas>
+
+        <!-- <button (click)="newDataPoint([900, 50, 300], 'May')">
+            Add data point
+        </button> -->
+    </div>
+
+    <!-- <div class="chart-wrapper">
+        <canvas 
+        baseChart 
+        [data]="pieChartData" 
+        [labels]="pieChartLabels" 
+        [type]="'pie'"
+        [options]="[pieChartOptions]"
+        [plugins]="pieChartPlugins"
+        [legend]="pieChartLegend"
+        >
+      </canvas>
+    </div> -->
+    <!-- <button type="button" class="btn btn-secondary" (click) = "goBack()">Back</button> -->
+</body>
+</html>
